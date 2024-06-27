@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Book your accomodation in Sardegna</h1>
+        <p>Choose one of our Hotels and your vacation will be amazing</p>
+        <span>
+            <img src="https://media.istockphoto.com/id/1224360439/ro/fotografie/%C3%AEn-a%C8%99teptare-pentru-a-naviga.jpg?s=2048x2048&w=is&k=20&c=jFpfwa7KLqYsl272DlsM26-qTfe1pSh0IMI1K--u2M0=" width="300" hidden="300"/>
+            <img src="https://cdn.pixabay.com/photo/2016/05/04/19/39/stones-1372677_640.jpg" width="300" hidden="300"/>
+        </span>
+        <img src="Imagines\hotel-1979406_1280.jpg" width="300" hidden="300"/>
+    </header>
+    <div>
+        <h4>Choose the period</h4>
+        <label id="period">Check in</label>
+        <input type="date" id="checkin" name="period">
+
+        <label id="period">Check out</label>
+        <input type="date" id="checkout" name="period">
+    </div>
+    <div>
+        <h4>Choose the hotel</h4>
+        <select id="hotel">
+            <option value="--Our hotels--">San Teodoro</option>
+            <option value="San Teodoro">San Teodoro</option>
+            <option value="Cagliari">Cagliari</option>
+            <option value="Alghero">Alghero</option>
+            <option value="Olbia">Olbia</option>
+            <option value="Bosa">Bosa</option>
+        </select>
+    </div>
+
+    <div>
+        <h4>Type of room</h4>
+        <label for="rooms"></label>
+        <input list="rooms"/>
+        <datalist id="rooms">
+            <option value="double - sea view"> double - sea view</option>
+            <option value="single - sea view"> single - sea view</option>
+            <option value="double - mountain view"> double - mountain view</option>
+            <option value="single - mountain view"> single - mountain view</option>
+        </datalist>
+    </div>
+    <div>
+        <h4>Choose the activities</h4>
+        <div>
+            <p>Day 1</p>
+            <span>
+                <select id="activity" name="activity">
+                    <option value="--Activity--">Activity</option>
+                    <option value="visit Golfo di orosei in barca">visit Golfo di orosei in barca</option>
+                    <option value="Go to the beachi- cala brandinchi">Go to the beachi- cala brandinchi</option>
+                    <option value="Go on the sea">Go on the sea</option>
+                    <option value="Vist the museum">Vist the museum</option>
+                    <option value="Taste wine 7 cheese">Taste wine 7 cheese</option>
+                </select>
+                <input type="date" name="activity">
+            </span>
+        </div>
+        <div>
+            <p>Day 2</p>
+            <span>
+                <select id="activity" name="activity">
+                    <option value="--Activity--">Activity</option>
+                    <option value="visit Golfo di orosei in barca">visit Golfo di orosei in barca</option>
+                    <option value="Go to the beachi- cala brandinchi">Go to the beachi- cala brandinchi</option>
+                    <option value="Go on the sea">Go on the sea</option>
+                    <option value="Vist the museum">Vist the museum</option>
+                    <option value="Taste wine 7 cheese">Taste wine 7 cheese</option>
+                </select>
+                <input type="date" name="activity">
+            </span>
+        </div>
+        <div>
+            <p>Day 3</p>
+            <span>
+                <select id="activity" name="activity">
+                    <option value="--Activity--">Activity</option>
+                    <option value="visit Golfo di orosei in barca">visit Golfo di orosei in barca</option>
+                    <option value="Go to the beachi- cala brandinchi">Go to the beachi- cala brandinchi</option>
+                    <option value="Go on the sea">Go on the sea</option>
+                    <option value="Vist the museum">Vist the museum</option>
+                    <option value="Taste wine 7 cheese">Taste wine 7 cheese</option>
+                </select>
+                <input type="date" name="activity">
+            </span>
+        </div>
+        <div>
+            <p>Day 4</p>
+            <span>
+                <select id="activity" name="activity">
+                    <option value="--Activity--">Activity</option>
+                    <option value="visit Golfo di orosei in barca">visit Golfo di orosei in barca</option>
+                    <option value="Go to the beachi- cala brandinchi">Go to the beachi- cala brandinchi</option>
+                    <option value="Go on the sea">Go on the sea</option>
+                    <option value="Vist the museum">Vist the museum</option>
+                    <option value="Taste wine 7 cheese">Taste wine 7 cheese</option>
+                </select>
+                <input type="date" name="activity">
+            </span>
+        </div>
+        <div>
+            <p>Day 5</p>
+            <span>
+                <select id="activity" name="activity">
+                    <option value="--Activity--">Activity</option>
+                    <option value="visit Golfo di orosei in barca">visit Golfo di orosei in barca</option>
+                    <option value="Go to the beachi- cala brandinchi">Go to the beachi- cala brandinchi</option>
+                    <option value="Go on the sea">Go on the sea</option>
+                    <option value="Vist the museum">Vist the museum</option>
+                    <option value="Taste wine 7 cheese">Taste wine 7 cheese</option>
+                </select>
+                <input type="date" name="activity">
+            </span>
+        </div>
+    </div>
+    <div>
+        <h4>Choose the meal</h4>
+        <input type="checkbox" id="type of meal" name="meal" value="breakfast"/>
+        <label for="breakfast">breakfast</label>
+        <input type="checkbox" id="type of meal" name="meal" value="lunch"/>
+        <label for="lunch">lunch</label>
+        <input type="checkbox" id="type of meal" name="meal" value="dinner"/>
+        <label for="dinner">dinner</label>
+       <p> <span style="font-size: small; background-color: antiquewhite;">*Each meal cost 20 euros/day</span> </p>
+    </div>
+    <div>
+        <h4> Add the boarding pass</h4>
+        <label for="">Guest 1</label>
+        <input type="file" accept="/pdf, /jpeg" />
+        <label for="">Guest 2</label>
+        <input type="file" accept="/pdf, /jpeg" />
+    </div>
+    <div>
+        <h4> Contact Details</h4>
+        <input type="text" placeholder="Your name"/>
+        <input type="text" placeholder="Your surname"/>
+        <input type="tel" placeholder="34----------"/>
+    </div>
+</body>
+</html>
