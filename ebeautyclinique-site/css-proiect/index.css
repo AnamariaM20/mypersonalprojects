@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Prata&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url("./main.css");
+@import url("./root.css");
+/*utility*/
+
+@import url("./utility/index.css");
+
+
+
+/*components*/
+@import url("./componets/bottons.css");
+@import url("./componets/footer.css");
+@import url("./componets/navbar.css");
+
+/*pages*/
+@import url("./pages/homepage.css");
+@import url("./pages/header.css");
+@import url("./pages/main.css")
+

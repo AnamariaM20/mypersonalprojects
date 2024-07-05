@@ -1,0 +1,48 @@
+/* position-container */
+.flex {
+    display:flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space {
+    justify-content: space-around;
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
+
+.bg-wh {
+    background-color: var(--color-white);
+}
+
+.bg-golden {
+    background-color: var(--color-golden);
+}
+
+.bg-golden-light {
+    background-color: var(--color-golden-light);
+}

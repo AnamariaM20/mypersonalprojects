@@ -1,0 +1,17 @@
+:root {
+   /* Global */
+   --font-main: "ubuntu";
+   --font-headers: "prata";
+   --font-subheader: "Mrs Saint Delafield";
+   --font-size: 16px;
+   --global-max-width: 1400px;
+
+   /* colors */
+
+   --color-black: #24232b;
+   --color-golden: #C09B50;
+   --color-golden-light: cea150;
+   --color-white: #ffffff;
+   --color-grey: #898989;
+
+}

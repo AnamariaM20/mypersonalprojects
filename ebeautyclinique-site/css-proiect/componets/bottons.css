@@ -1,0 +1,15 @@
+.bg-golden {
+    background-color: var(--color-golden);
+    size: 0.9rem;
+    padding: auto;
+    margin: auto;
+    border-color: var(--color-golden);
+    height: 50px;
+    width: 200px;
+    border: 0px;
+
+}
+.bg-golden:hover {
+    background-color: var(--color-black);
+    color: white;
+}
