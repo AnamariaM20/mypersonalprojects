@@ -1,0 +1,94 @@
+h3 {
+    font-family: var(--font-subheader);
+    font-size: 2.4rem;
+    color: var(--color-golden);
+    padding-bottom: 0px;
+    height: ;
+}
+.section1-row1 {
+    max-width: 1400px;
+    margin-left: 10%;
+    line-height: 0px;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-top: 0px;
+}
+h6 {
+    size: 0.3rem;
+}
+
+.section1-row2 {
+    background-color: var(--color-black);
+    max-width: 1400px;
+    height: auto;
+}
+
+.banner-echipamente {
+    width: 900px;
+    height: 427px;
+    margin-right:auto;
+    margin-left: auto;
+    max-width: 70%;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 20px;
+}
+.banner-echipamente:hover {
+    background-color: var(--color-golden);
+}
+
+.echipamente {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.section1-row2 .banner-echipamente .echipamente-img {
+    width: 190px !important;
+    height: 280px 
+
+}
+.echipamente-img:hover {
+    border: 0.5px;
+    border-color: white;
+}
+.servici-s1 {
+    text-align: center;
+    justify-content: flex-end;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#section2 {
+    width: 900px;
+    height: auto;
+    row-gap: 20px;
+}
+
+.section2-row2 {
+    margin-top: 100px;
+    gap: 30px;
+    margin-left: 40px;
+    margin-right: 80px;
+    justify-content: center;
+}
+
+.col3-icon {
+    color: var(--color-golden);
+    size: 30px;
+    text-align: center;
+}
+.col3 {
+    text-align: center;
+    width: 200px;
+    align-content: center;
+    
+}
+
+.col3-text > p {
+   font-size: 0.7rem;
+}
