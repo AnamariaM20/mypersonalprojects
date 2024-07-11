@@ -1,0 +1,33 @@
+:root {
+/* COLORS */
+--color-main: #003240;
+--color-secondary: #fff;
+--bg-beige: #f7f0e7;
+--bg-green: #def6f0;
+--bg-dark-green: #95d7cd;
+
+
+
+/* FONTS */
+--font-size: 16px;
+--font-main: "Maname", sans-serif; 
+--font-secondary: "poppins", sans-serif; 
+
+
+
+/* WIHGT */
+--widht-main: 100%;
+--max-width:1227px;
+
+
+
+
+
+
+
+
+
+
+
+
+}
