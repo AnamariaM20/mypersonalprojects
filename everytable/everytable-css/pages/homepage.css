@@ -1,0 +1,160 @@
+
+
+.nav__logo {
+    
+}
+.nav__logo img {
+    color: var(--color-main);
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-top: color var(--color-main) 2px solid;
+} 
+
+.nav__menu { 
+    gap: 40px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.nav__buttons {
+    
+    justify-items: center;
+}
+.nav__buttons > div {
+    gap: 10px;
+    padding: 20px;
+    
+    border: rgba(134, 133, 133, 0.127) solid 1px;
+}
+
+
+.nav__buttons-cta > button {
+    color: #fff;
+    background-color: var(--color-main);
+    justify-content: center;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.nav__menu-items a {
+    color: var(--color-main);
+}
+
+.container-header {
+    position: relative;
+    max-height: 80%;
+    max-width: 100%;
+}
+
+.container-header > img {
+    max-height: 80%;
+    max-width: 100%;
+}
+.box-header {
+    position: absolute;
+    top: 100px;
+    bottom: 200px;
+    left: 100px;
+    max-width: 380px;
+    max-height: 300px;
+    padding: 30px;
+}
+
+#sec-1 {
+    width: 1227px;
+    height: 600px;
+}
+
+.sec-1 {
+    margin:30px 100px 0px 100px;
+}
+
+.sec-1__boxes-content {
+    column-gap: 40px;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.sec-1__boxes-content > img {
+    width: 300px;
+    height: 180px;
+    padding-top: 0px !important;
+    border-start-end-radius: 15px;
+    border-top-left-radius: 15px ;
+}
+
+    .sec-1__boxes-content > p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.8rem;
+    color: var(--color-main);
+    border-radius: ;
+}
+
+.sec-1__boxes-content > h4 {
+
+    padding-left: 30px;
+    color: var(--color-main);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: var(--font-main);
+}
+
+.sec-2 {
+    height: 400px;
+    row-gap: 30px;
+    margin-bottom: 40px;
+}
+.sec-2__title {
+    padding: 20px 20px auto 20px;
+}
+.sec-2__boxes-content {
+    row-gap: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sec-2__boxes-content > img {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.sec-2__boxes {
+    gap: 10px;
+}
+
+#sec-3 {
+    width: 1227px;
+    height: 600px;
+    margin-bottom: 60px;
+}
+.sec-3 {
+    width: 1227px;
+    margin: 20px;
+    row-gap: 30px;
+}
+
+.sec-3__boxes {
+    width: 250px;
+    height: auto;
+    gap:10px;
+    
+    
+}
+.sec-3__boxes-content {
+    height: 380px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.sec-3__boxes-content > img {
+    height: 220px;
+    width: 250px;
+    margin-top: 0px;
+}
+
+.sec-3__boxes-content > p {
+    padding: 0px 20px 0px 20px;
+}
