@@ -6,6 +6,7 @@ button {
     color: #fff;
     background-color: var(--color-main);
     justify-content: center;
+    border: solid var(--color-main) 2px;
     padding: 5px;
     margin: 10px;
 }

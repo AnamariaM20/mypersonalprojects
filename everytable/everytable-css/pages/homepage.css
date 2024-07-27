@@ -1,5 +1,3 @@
-
-
 .nav__logo {
     
 }
@@ -39,33 +37,38 @@
     color: var(--color-main);
 }
 
-.container-header {
-    position: relative;
-    max-height: 80%;
-    max-width: 100%;
-}
 
-.container-header > img {
-    max-height: 80%;
-    max-width: 100%;
+.header-img {
+   width: 100%;
+   position: relative;
 }
+.header-img img {
+    width: 100%;
+    position: relative;
+ }
 .box-header {
     position: absolute;
-    top: 100px;
+    top: 300px;
     bottom: 200px;
-    left: 100px;
-    max-width: 380px;
-    max-height: 300px;
+    left: 120px;
+    width: 25%;
+    height: 50%;
     padding: 30px;
 }
 
-#sec-1 {
-    width: 1227px;
-    height: 600px;
+.box-header p {
+    font-size: 1REM;
+    line-height: 1.5rem;
 }
-
-.sec-1 {
-    margin:30px 100px 0px 100px;
+.box-header button {
+    margin: 50px 0px;
+    padding: 10px 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 1.25rem;
+    
 }
 
 .sec-1__boxes-content {
@@ -125,19 +128,8 @@
     gap: 10px;
 }
 
-#sec-3 {
-    width: 1227px;
-    height: 600px;
-    margin-bottom: 60px;
-}
-.sec-3 {
-    width: 1227px;
-    margin: 20px;
-    row-gap: 30px;
-}
-
 .sec-3__boxes {
-    width: 250px;
+    width: 25%;
     height: auto;
     gap:10px;
     
@@ -158,3 +150,75 @@
 .sec-3__boxes-content > p {
     padding: 0px 20px 0px 20px;
 }
+
+.container .reward {
+    gap:20px;
+    max-width: var(--max-width);
+    
+
+}
+ .container .reward .reward-item {
+    max-width: 50%;
+    background-color: var(--bg-beige);
+    padding: 25px 80px 25px 30px;
+    gap: 50px;
+    
+}
+.container .reward .reward-item p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.container .reward .reward-item a {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+#sec-5 {
+    position: relative;
+}
+.wrapper .img {
+    width: 100%;
+    margin-top: 80px;
+    
+}
+.wrapper .img img {
+    width: 100%;
+}
+
+
+.wrapper .sec-5{
+    position: absolute;
+    top: 130px;
+    left:100px;
+    z-index: 2;
+    height: 80%;
+    width: var(--max-width);
+    gap:15px;
+
+}
+
+.wrapper .sec-5 .sec-5__advantages-item {
+    margin: 30px 0px;
+    padding: 50px;
+    height: 65%;
+    border-radius: 5%;
+    text-align: center;
+}
+.wrapper .sec-5 .sec-5__advantages-item img {
+    width: 150px;
+    height: 140px;
+}
+
+.wrapper .sec-5 .sec-5__advantages-item h6 {
+    font-size: 1.6rem;
+    margin: 40px 0px;
+}
+
+.wrapper .sec-5 .sec-5__advantages-item p {
+    font-size: 1.2rem;
+}
+
+
+
